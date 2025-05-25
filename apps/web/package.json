@@ -1,0 +1,11 @@
+{
+  "name": "@bd/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo building web && mkdir -p dist && cp src/index.js dist/index.js"
+  },
+  "dependencies": {
+    "@bd/ui": "workspace:*"
+  }
+}

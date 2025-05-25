@@ -1,0 +1,23 @@
+{
+  "name": "bd",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "eslint": "^8.44.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8",
+    "turbo": "^1.10.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx,json,md,css}": ["prettier --write"],
+    "*.{js,ts,tsx,jsx}": ["eslint --fix"]
+  }
+}
