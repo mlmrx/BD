@@ -1,0 +1,7 @@
+{
+  "name": "bd",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "tsc --noEmit -p tsconfig.base.json"
+  }
+}
