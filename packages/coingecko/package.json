@@ -1,0 +1,10 @@
+{
+  "name": "@bd/coingecko",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp src/index.js dist/index.js",
+    "test": "jest"
+  }
+}
