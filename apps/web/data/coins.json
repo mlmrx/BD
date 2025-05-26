@@ -1,0 +1,5 @@
+[
+  {"id":"btc","name":"Bitcoin","inflation":1.7,"url":"https://bitcoin.org"},
+  {"id":"sol","name":"Solana","inflation":7.0,"url":"https://solana.com"},
+  {"id":"eth","name":"Ethereum","inflation":2.0,"url":"https://ethereum.org"}
+]

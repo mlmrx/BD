@@ -3,9 +3,28 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "echo building web && mkdir -p dist && cp src/index.js dist/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run"
   },
   "dependencies": {
-    "@bd/ui": "workspace:*"
+    "@bd/ui": "workspace:*",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.14",
+    "next-themes": "^0.2.0",
+    "clsx": "^2.0.0",
+    "zustand": "^4.4.1",
+    "js-cookie": "^3.0.5",
+    "echarts": "^5.5.0",
+    "openai": "^4.30.0",
+    "langchain": "^0.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.6"
   }
 }
