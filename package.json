@@ -1,5 +1,9 @@
 {
   "name": "bd",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "tsc --noEmit -p tsconfig.base.json"
+=======
   "private": true,
   "version": "0.0.0",
   "packageManager": "pnpm@9.15.4",
@@ -19,5 +23,6 @@
   "lint-staged": {
     "*.{js,ts,tsx,jsx,json,md,css}": ["prettier --write"],
     "*.{js,ts,tsx,jsx}": ["eslint --fix"]
+
   }
 }
